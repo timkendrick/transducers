@@ -1,0 +1,15 @@
+{
+  "root": true,
+  "extends": "@timkendrick/eslint-config",
+  "overrides": [
+    {
+      "files": [
+        "*.spec.js",
+        "test/**/*"
+      ],
+      "env": {
+        "jest": true
+      }
+    }
+  ]
+}

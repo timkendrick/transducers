@@ -1,0 +1,31 @@
+{
+  "name": "@timkendrick/transducers",
+  "version": "0.0.1",
+  "description": "Simple, high-performance transducers for JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "benchmark": "benchmark ./perf/benchmarks.js",
+    "prepush": "npm test",
+    "test": "eslint lib operators perf test && jest"
+  },
+  "files": [
+    "lib",
+    "operators",
+    "reducers",
+    "core.js",
+    "index.js"
+  ],
+  "author": "Tim Kendrick <timkendrick@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timkendrick/transducers/issues"
+  },
+  "homepage": "https://github.com/timkendrick/transducers",
+  "devDependencies": {
+    "@timkendrick/benchmark-cli": "^1.0.0",
+    "@timkendrick/eslint-config": "^1.0.0",
+    "@timkendrick/scenario-builder": "^1.0.0",
+    "eslint": "^4.0.0",
+    "husky": "^0.14.0"
+  }
+}
