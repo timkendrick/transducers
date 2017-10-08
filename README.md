@@ -34,7 +34,7 @@ const results = transduce(transducer, array, users);
 console.log(results);
 ```
 
-One of the primary advantages of transducers is their efficiency. See the [performance](./perf) benchmarks for more details.
+One of the primary advantages of transducers is their efficiency. See the [performance](./perf/) benchmarks for more details.
 
 ## Usage
 
@@ -73,7 +73,7 @@ While not an exhaustive set by any means, various operators have been bundled fo
 - `takeUntil(predicate)`: take all items until one conforms to the `predicate` function
 - `takeWhile(predicate)`: take all items until one does not conform to the `predicate` function
 
-See the tests for the bundled [operators](./operators) for more details.
+See the tests for the bundled [operators](./operators/) for more details.
 
 The bundled operators can all be composed using the `compose()` helper to produce more specific operators.
 
