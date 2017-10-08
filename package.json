@@ -15,6 +15,10 @@
     "core.js",
     "index.js"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timkendrick/transducers.git"
+  },
   "author": "Tim Kendrick <timkendrick@gmail.com>",
   "license": "ISC",
   "bugs": {
